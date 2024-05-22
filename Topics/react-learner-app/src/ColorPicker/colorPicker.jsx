@@ -22,7 +22,7 @@ function colorPicker(){
             
             <div className={styles.colorPickerContainer}>
                 <div><button className={styles.colorValue} value={colorValue} style={{backgroundColor:colorValue}} onClick={(event)=>copyToClipboard(event) }>
-                    Color value: {colorValue}
+                    {colorValue}
                     </button></div>
                 <div className="textToCopy">
                 <button className={styles.copyButton} value={colorValue} onClick={(event)=>copyToClipboard(event)}>Copy</button>

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
 
-    <ColorPicker></ColorPicker>
+    <ClickEvent></ClickEvent>
     </>
   )
 }
