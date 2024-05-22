@@ -6,10 +6,12 @@ import Card from './Card/Card.jsx'
   import ClickEvent from './ClickEvent/App.jsx'
   import MyComponent from './Hook/UseStateHook/myComponent.jsx'
   import OnChangeEvent from './OnChangeEvent/onChange.jsx'
+  import ColorPicker from './ColorPicker/colorPicker.jsx'
 function App() {
   return (
     <>
-   <OnChangeEvent/>
+
+    <Card></Card>
 
     </>
   )
