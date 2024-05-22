@@ -11,8 +11,7 @@ function App() {
   return (
     <>
 
-    <Card></Card>
-
+    <ColorPicker></ColorPicker>
     </>
   )
 }
