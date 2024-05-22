@@ -10,20 +10,20 @@ function Button(){
             console.log(`${name} clicked me ${count} times`);
         }
     }
-
+    //single click event
     const handleSingleClick = (e)=>{ 
         e.target.textContent = "You single clicked me";       
         console.log(e.target.textContent);
         
     }
-    const handleDoubleClick = (e)=>{ 
-        e.target.textContent = "You Double clicked me";       
+    //double click event and hide elements
+    const handleDoubleClick = (e)=>{        
         console.log(e.target.textContent);
-        
+        e.target.style.display = "none";
     }
     
     
-    return (<button onClick={(e)=>handleSingleClick(e)} onDoubleClick={(e)=>handleDobuleClick(e)}>Click me</button>);
+    return (<button onClick={(e)=>handleSingleClick(e)} onDoubleClick={(e)=>handleDoubleClick(e)}>Click me</button>);
 }
 
 
