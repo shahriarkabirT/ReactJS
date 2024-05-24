@@ -8,12 +8,12 @@ import Card from './Card/Card.jsx'
   import OnChangeEvent from './OnChangeEvent/onChange.jsx'
   import ColorPicker from './ColorPicker/colorPicker.jsx'
   import Hook from './Hook/App.jsx'
+  import ToDoApp from './ToDoApp/ToDoApp.jsx'
 function App() {
   return (
     <>
-
-    <Hook/>
-
+    <ToDoApp></ToDoApp>
+   
     </>
   )
 }

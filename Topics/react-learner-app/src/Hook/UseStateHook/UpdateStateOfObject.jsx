@@ -24,16 +24,15 @@ const wrapper = {
 }
   return (
     <div style = {wrapper}>
+        <h2>Example of State of Object</h2>
       <p>
         You Name is: {information.name}. You are {information.age} years old.
       </p>
       <input type="text" value={information.name} onChange={updateName} />
       <input type="number" value={information.age} onChange={updateAge} />
-      
       <br />
       <br />
-      <p>Source Code:</p>
-      <img src={codesrc} style={styles} alt="" />
+
     </div>
   );
 }

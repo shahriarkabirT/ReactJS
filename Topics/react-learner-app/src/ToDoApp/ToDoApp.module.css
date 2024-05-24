@@ -1,0 +1,45 @@
+.input{
+    width: 300px;
+    height: 20px;
+    background-color: aquamarine;
+}
+
+.addButton{
+    height: 25px;
+    width: 40px;
+    background-color: chartreuse;
+    margin-left: 5px;
+}
+.ol{
+    padding:0;
+    
+}
+.li{
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    font-size: 2rem;
+    background-color: rgb(3, 87, 87);
+    border: 3px solid hsl(212, 29%, 22%);
+
+}
+
+.text{
+    flex:1;
+}
+
+.deleteButton{
+    background-color: rgb(135, 36, 36);
+    height: 35px;
+    color: white;
+    margin: 5px;
+}
+.arrowButton{
+    background-color: rgb(65, 218, 162);
+    height: 35px;
+    color: rgb(36, 22, 232);
+    margin: 5px;
+}

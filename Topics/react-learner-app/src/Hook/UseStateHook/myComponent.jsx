@@ -20,7 +20,7 @@ function myComponent(){
         setIsMarried(!maritalStatus);
     }
     return(<div>
-
+        <h2>Basic Example of UseState()</h2>
         <p>Name: {name}</p> 
         {<button onClick={()=>updateName("Towfique")}>Change Name</button>}
         <p>Age: {age}</p> 

@@ -5,10 +5,12 @@ import ArrayOfObject from './UseStateHook/UpdateArrayOfObject'
 function App() {
     return (
       <>
-    
+      <div className="Wrapper">
+    <Mycomponent></Mycomponent>
+    <UpdateObject></UpdateObject>
+    <UpdateArrays></UpdateArrays>
     <ArrayOfObject></ArrayOfObject>
-    
-      </>
+    </div>  </>
     )
   }
   
