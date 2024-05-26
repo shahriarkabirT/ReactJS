@@ -8,12 +8,12 @@ import OnChangeEvent from './OnChangeEvent/onChange.jsx'
 import ColorPicker from './ColorPicker/colorPicker.jsx'
 import Hook from './Hook/App.jsx'
 import ToDoApp from './ToDoApp/ToDoApp.jsx'
+import Clock from './DigitalClock/clock.jsx'
 
 function App() {
   return (
     <>
-  
-   
+    <Clock></Clock>
     </>
   )
 }
