@@ -10,11 +10,13 @@ import Hook from './Hook/App.jsx';
 import ToDoApp from './ToDoApp/ToDoApp.jsx';
 import Clock from './DigitalClock/clock.jsx';
 import UseContext from './Hook/UseContext/ComponentA.jsx';
+import StopWatch from './StopWatch/StopWatch.jsx'
 
 function App() {
   return (
-    <>
-   <UseContext></UseContext>
+    <>  
+    <StopWatch></StopWatch>
+
     </>
   )
 }
