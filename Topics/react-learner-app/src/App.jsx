@@ -15,8 +15,6 @@ import StopWatch from './StopWatch/StopWatch.jsx'
 function App() {
   return (
     <>  
-    <StopWatch></StopWatch>
-
     </>
   )
 }
