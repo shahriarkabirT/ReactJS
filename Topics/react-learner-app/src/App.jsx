@@ -12,6 +12,7 @@ import Clock from './DigitalClock/clock.jsx';
 import UseContext from './Hook/UseContext/ComponentA.jsx';
 import StopWatch from './StopWatch/StopWatch.jsx'
 import Routing from './Router/App.jsx'
+// import UseReducerEx from './Hook/UseReducer/app.jsx'
 
 function App() {
   return (
